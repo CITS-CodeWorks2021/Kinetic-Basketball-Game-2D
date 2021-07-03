@@ -40,4 +40,5 @@ public class PaperBall : MonoBehaviour
 
         GetComponent<SpringJoint2D>().enabled = false;
     }
+
 }

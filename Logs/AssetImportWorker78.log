@@ -1,0 +1,18 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.12f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker78
+-projectPath
+/Users/stephenieprovidence/Documents/Kinetic Basketball Game 2D
+-logFile
+Logs/AssetImportWorker78.log
+-srvPort
+59693
+Successfully changed project path to: /Users/stephenieprovidence/Documents/Kinetic Basketball Game 2D
+/Users/stephenieprovidence/Documents/Kinetic Basketball Game 2D
+Using Asset Import Pipeline V2.
