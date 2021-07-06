@@ -425,7 +425,7 @@ SpringJoint2D:
   m_Anchor: {x: 0, y: 0}
   m_ConnectedAnchor: {x: 0, y: 0}
   m_AutoConfigureDistance: 1
-  m_Distance: 0.37827125
+  m_Distance: 0.3790119
   m_DampingRatio: 0
   m_Frequency: 2
 --- !u!114 &829505093
@@ -878,7 +878,7 @@ GameObject:
   - component: {fileID: 1319528713}
   - component: {fileID: 1319528712}
   m_Layer: 0
-  m_Name: Circle
+  m_Name: Anchor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -946,7 +946,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0.21568628}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -964,8 +964,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1319528711}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.33, y: 0.36481386, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -4.269, y: 0.377, z: 0}
+  m_LocalScale: {x: 0.731556, y: 0.73151934, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
