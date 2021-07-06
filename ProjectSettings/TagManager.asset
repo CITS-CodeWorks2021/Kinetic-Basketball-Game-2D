@@ -47,3 +47,6 @@ TagManager:
   - name: TargetObjects
     uniqueID: 232653423
     locked: 0
+  - name: BarrierObjects
+    uniqueID: 3549962849
+    locked: 0
