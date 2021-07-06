@@ -10,9 +10,7 @@ public class ImpactReact : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
-
-        
+        if (!shouldShake) return;
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -21,6 +19,6 @@ public class ImpactReact : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!shouldShake) return;
+        
     }
 }
