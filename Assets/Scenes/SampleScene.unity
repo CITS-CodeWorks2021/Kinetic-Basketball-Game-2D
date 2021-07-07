@@ -243,7 +243,6 @@ GameObject:
   - component: {fileID: 395217431}
   - component: {fileID: 395217430}
   - component: {fileID: 395217429}
-  - component: {fileID: 395217432}
   m_Layer: 0
   m_Name: Wall One
   m_TagString: Untagged
@@ -342,20 +341,6 @@ Transform:
   m_Father: {fileID: 1206164370}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &395217432
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 395217428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2889d1808553d40a7bedb1b039b7c699, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  shouldShake: 1
-  simpleAmount: 2
 --- !u!1 &399783196
 GameObject:
   m_ObjectHideFlags: 0
@@ -476,7 +461,6 @@ GameObject:
   - component: {fileID: 422521286}
   - component: {fileID: 422521285}
   - component: {fileID: 422521284}
-  - component: {fileID: 422521287}
   m_Layer: 0
   m_Name: Wall Three
   m_TagString: Untagged
@@ -575,20 +559,6 @@ Transform:
   m_Father: {fileID: 1206164370}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &422521287
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 422521283}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2889d1808553d40a7bedb1b039b7c699, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  shouldShake: 1
-  simpleAmount: 2
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1073,7 +1043,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1206164370}
-  - component: {fileID: 1206164371}
   m_Layer: 0
   m_Name: Scene Barriers
   m_TagString: Untagged
@@ -1099,20 +1068,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1206164371
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1206164369}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2889d1808553d40a7bedb1b039b7c699, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  shouldShake: 1
-  simpleAmount: 2
 --- !u!1 &1245299130
 GameObject:
   m_ObjectHideFlags: 0
@@ -1749,6 +1704,7 @@ GameObject:
   - component: {fileID: 1812777190}
   - component: {fileID: 1812777189}
   - component: {fileID: 1812777195}
+  - component: {fileID: 1812777196}
   m_Layer: 0
   m_Name: 'Crumpled Paper Ball '
   m_TagString: Untagged
@@ -1904,6 +1860,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e044a9b6e5e35458ab4c9bf0717e1f03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1812777196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1812777188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2889d1808553d40a7bedb1b039b7c699, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shouldShake: 1
+  simpleAmount: 0.03
 --- !u!1 &1859331179
 GameObject:
   m_ObjectHideFlags: 0
@@ -1915,7 +1885,6 @@ GameObject:
   - component: {fileID: 1859331182}
   - component: {fileID: 1859331181}
   - component: {fileID: 1859331180}
-  - component: {fileID: 1859331183}
   m_Layer: 0
   m_Name: Floor
   m_TagString: Untagged
@@ -2014,20 +1983,6 @@ Transform:
   m_Father: {fileID: 1206164370}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1859331183
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1859331179}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2889d1808553d40a7bedb1b039b7c699, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  shouldShake: 1
-  simpleAmount: 2
 --- !u!1 &1957567803
 GameObject:
   m_ObjectHideFlags: 0
@@ -2105,7 +2060,6 @@ GameObject:
   - component: {fileID: 1989902938}
   - component: {fileID: 1989902937}
   - component: {fileID: 1989902936}
-  - component: {fileID: 1989902939}
   m_Layer: 0
   m_Name: Wall Two
   m_TagString: Untagged
@@ -2204,20 +2158,6 @@ Transform:
   m_Father: {fileID: 1206164370}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!114 &1989902939
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1989902935}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2889d1808553d40a7bedb1b039b7c699, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  shouldShake: 1
-  simpleAmount: 2
 --- !u!1 &2107224164
 GameObject:
   m_ObjectHideFlags: 0

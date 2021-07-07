@@ -13,16 +13,17 @@ public class CameraShake : MonoBehaviour
     void Start()
     {
         startPos = transform.position;
+        onSimpleShake.AddListener(HandleOnSimpleShake);
     }
 
     private void HandleOnSimpleShake(float amount)
     {
         simpleAmount = amount;
-        Debug.Log("Shakeing");
+        Debug.Log("Shaking");
     }
 
     void Update()
-     {  
+     {
 
         Vector3 shakePos = startPos;
 
@@ -31,10 +32,10 @@ public class CameraShake : MonoBehaviour
             //Shake it Up
             shakePos.x += Random.Range(-simpleAmount, simpleAmount);
             shakePos.y += Random.Range(-simpleAmount, simpleAmount);
-
+           
             transform.position = shakePos;
 
-            simpleAmount -= Time.deltaTime;
+            simpleAmount -= Time.deltaTime; 
          }
     }
 }
