@@ -544,3 +544,35 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12055.984120 seconds.
+  path: Assets/Scripts/In Progress/HandSpriteSheet.png
+  artifactKey: Guid(c0ba01bbee86844b1a79977ad2b71af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/In Progress/HandSpriteSheet.png using Guid(c0ba01bbee86844b1a79977ad2b71af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c895a5a7085d94630a335dab9bed77') in 7.786145 seconds 
+  Import took 7.918604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 118.522602 seconds.
+  path: Assets/Scripts/In Progress/HandSpriteSheet.png
+  artifactKey: Guid(c0ba01bbee86844b1a79977ad2b71af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/In Progress/HandSpriteSheet.png using Guid(c0ba01bbee86844b1a79977ad2b71af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19aec9bf2e641050dbff9a9dd1d9120') in 0.180476 seconds 
+  Import took 0.527493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.048436 seconds.
+  path: Assets/Scripts/In Progress/HandSpriteSheet.png
+  artifactKey: Guid(c0ba01bbee86844b1a79977ad2b71af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/In Progress/HandSpriteSheet.png using Guid(c0ba01bbee86844b1a79977ad2b71af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35a369e384c60648fcbc51e1afd842f') in 0.399043 seconds 
+  Import took 0.603892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.702372 seconds.
+  path: Assets/Scripts/In Progress/HandSpriteSheet.png
+  artifactKey: Guid(c0ba01bbee86844b1a79977ad2b71af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/In Progress/HandSpriteSheet.png using Guid(c0ba01bbee86844b1a79977ad2b71af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45bb5ef7a0043cf52ebbcb134d74d0a') in 0.136006 seconds 
+  Import took 0.218782 seconds .
+
