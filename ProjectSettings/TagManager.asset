@@ -41,6 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: CursorObjects
+    uniqueID: 3491537835
+    locked: 0
   - name: PlayerObjects
     uniqueID: 1438824939
     locked: 0
@@ -49,4 +52,7 @@ TagManager:
     locked: 0
   - name: BarrierObjects
     uniqueID: 3549962849
+    locked: 0
+  - name: PlatformObjects
+    uniqueID: 1600063013
     locked: 0

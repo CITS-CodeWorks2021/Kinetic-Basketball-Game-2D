@@ -11,7 +11,7 @@ public class Respawn : MonoBehaviour
         startPos = transform.position;
     }
 
-    public void ResetMe()
+    public void ResetMe(GameObject gameObject)
     {
         transform.position = startPos;
         GetComponent<Rigidbody2D>().velocity = Vector2.zero;
